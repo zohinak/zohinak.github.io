@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.gradient{
+  background-image: linear-gradient(#513B26, #171202, #030200 80%);
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#A22005, #EF9406);
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.overlay a {
+    text-align: center;
+    font-family: 'CinzelDecorative-Bold';
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 40px;
+    color: beige;
+    display: block;
+    transition: 0.3s;
+}
+
+.countries a{
+    display: inline-block;
+}
+
+.img-india{
+    position: absolute;
+    top: 520px;
+    left: 595px;
+    width: 7%;
+    z-index: 10;
+}
+
+.img-kenya{
+    position: absolute;
+    top: 520px;
+    left: 730px;
+    width: 7%;
+    height: auto;
+    z-index: 10;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #150401;
+}
+
+.indian{
+    position: absolute;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 50px;
+}
+
+.logonav{
+    position: absolute;
+    z-index: 5;
+    max-width: 7%;
+}
+
+.logonav:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay a img{z-index: 5;}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+.history img{
+    position: relative;
+    max-width: 100%;
+    opacity: .7;
+    
+}
+
+.history{
+    margin: 0px 0px;
+}
+
+.centered{
+    position: absolute;
+    border-bottom: 3px solid brown;
+    padding: 0px 0px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: black;
+    font-size: 6.5em;
+    text-align: center;
+    top:300px;
+    left:450px;
+    
+}
+
+.info h1{
+    position: relative;
+    z-index: 1;
+    font-family: 'Mulish-Bold';
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    margin: 10px 30px 200px 0px;
+}
+
+.britain{
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px 200px 200px;
+}
+
+.column1{
+    color: white;
+    width: 100%;
+    height:auto;
+
+}
+
+.column1 h2{
+    font-family: 'Mulish-medium';
+    font-weight: thick;
+    font-size: 90px;
+    padding-bottom: 20px;
+}
+
+.column1 p1{
+    font-family: 'Mulish-medium';
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.column2 img{
+    max-width: 50%;
+    max-height: auto;
+    margin: 0px 0px 0px 100px;
+}
+
+.train{
+    position: relative;
+}
+
+.train img{
+    max-width: 100%;
+    max-height: auto;
+    opacity: .8;
+}
+
+.bottom-right{
+    position:absolute;
+    z-index: 1;
+    top:500px;
+    left:1000px;
+    color: white;
+    font-family: 'Mulish';
+    font-size: 25px;
+    border: solid black;
+    background-color: black;
+    padding: 20px 20px;
+    
+}
+
+.India{
+    display: flex;
+    align-items: center;
+    margin: 150px 200px 100px 200px;
+}
+
+.column1{
+    color: white;
+    width: 100%;
+    height:auto;
+
+}
+
+.column1 h2{
+    font-family: 'Mulish';
+    font-weight: 1000;
+    font-size: 60px;
+}
+
+.column1 p1{
+    font-family: 'Mulish';
+    font-weight: 200;
+    line-height: 20px;
+}
+
+.column2 img{
+    max-width: 50%;
+    max-height: auto;
+    margin: 0px 0px 0px 150px;
+}
+
+.see{
+    z-index: 2;
+    margin: 80px 150px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px 10px;
+    max-width: 120px;
+    height: auto;
+    border: 1px solid;
+}
+
+.see a{
+	text-decoration: none;
+    color: black;
+    font-size: 90%;
+    letter-spacing: .5px;
+    padding: 10px 15px;
+}
+
+
+.see:hover{
+    background-color: green;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+
+
+
+/*/
+Footer!
+/*/
+footer{
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.footerlogo img{
+    max-width: 11%;
+    height: auto;
+    margin: 5% 45% 3% 45%;
+
+}
+
+.footerrow{
+    display: flex;
+}
+
+
+.rowbottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+
+}
+
+.rowbottom div a{
+    font-family: 'Mulish-medium';
+    text-decoration: none;
+    color: beige;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rowbottom div a:hover{
+    color: green;
+}
+
+.pagescolumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.icons div img{
+    margin: 0px 0px 0px 10px;
+    max-height: 25px;
+    width: auto;
+}

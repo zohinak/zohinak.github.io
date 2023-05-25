@@ -1,0 +1,341 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.gradient{
+  background-image: linear-gradient(#76654E, #6E523A, #0D0002 80%);
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to right,#A22005, #EF9406);
+}
+
+.overlay-content {
+	position: relative;
+	top: 15%;
+	width: 100%;
+	text-align: center;
+}
+
+
+.overlay a {
+	text-align: center;
+	font-family: 'CinzelDecorative-Bold';
+	font-weight: 600;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 40px;
+	color: beige;
+	display: block;
+	transition: 0.3s;
+}
+
+.countries a{
+	display: inline-block;
+}
+
+.img-india{
+	position: absolute;
+	top: 520px;
+	left: 595px;
+	width: 7%;
+	z-index: 10;
+}
+
+.img-kenya{
+	position: absolute;
+	top: 520px;
+	left: 730px;
+	width: 7%;
+	height: auto;
+	z-index: 10;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #150401;
+}
+
+.indian{
+	position: absolute;
+}
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 50px;
+}
+
+.logonav{
+	position: absolute;
+	z-index: 5;
+	max-width: 7%;
+}
+
+.logonav:hover{
+	transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay a img{z-index: 5;}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+
+.contact img{
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    opacity: .9;
+    
+}
+
+.history{
+    margin: 0px 0px;
+}
+
+.centered {
+    position: absolute;
+    border-bottom: 3px solid brown;
+    padding: 0px 0px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: beige;
+    font-size: 6.5em;
+    text-align: center;
+    top:40%;
+    left:30%;
+    
+}
+
+.info h1{
+    position: relative;
+    z-index: 1;
+    font-family: 'Mulish-Bold';
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    margin: 10px 30px 200px 0px;
+}
+
+form{
+	background: rgba(255,255,255,25%);
+	margin: 50px auto;
+	max-width: 50%;
+	border-radius: 20px;
+	padding: 70px 100px;
+	font-family: 'Mulish-medium';
+	color: white;
+}
+
+
+.title h2{
+	letter-spacing: 5px;
+	border-bottom: 1px solid white;
+	display: inline-block;
+	padding-bottom: 8px;
+	margin-bottom: 20px;
+}
+
+.half{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+
+form label{
+	display: block;
+	font-size: 15px;
+	letter-spacing: 3.5px;
+	margin: 40px 0px 16px 0px;
+}
+
+form input{
+	border-radius: 20px;
+	padding: 8px 5px;
+	width: 100%;
+	background: rgba(93,67,49,27%);
+	border: solid 0;
+}
+
+
+.full input{
+	width: 80vh;
+	height: 30vh;
+	
+}
+
+.action{
+	display: flex;
+	width: 30%;
+	margin-top: 50px;
+}
+
+.action input{
+	margin-left: 20px;
+	padding: 10px 25px;
+}
+
+.action input[type="submit"]{
+	background:#171202; 
+	color: #FAF5D4;
+	letter-spacing: 1.2px;
+	
+}
+
+.action input[type="reset"]{
+	background:rgba(255,255,255,50%); 
+	color: #171202;
+	letter-spacing: 1.2px;
+}
+
+.action input[type="submit"]:hover{
+	cursor: pointer;
+	background:green;
+
+}
+
+.action input[type="reset"]:hover{
+	cursor: pointer;
+	background:green;
+	color:beige;
+}
+
+.join{
+	width: 750px;
+	margin: 200px auto 100px auto;
+	max-width: 97%;
+	font-family: 'Mulish-medium';
+}
+
+.join h3{
+	font-size: 50px;
+	color:#FAF5D4;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.join h4{
+	color: white;
+	margin-bottom: 120px;
+	text-align: center;
+	font-weight: 500;
+}
+
+.join div{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 120px;
+
+}
+
+.join input[type="text"]{
+	width: 45vh;
+	height: 5vh;
+	background:rgba(255,255,255,20%);
+	border: solid 0;
+}
+
+.join input[type="submit"]{
+	border-radius: 20px;
+	background: #D76148;
+	color:#F5F4F4;
+	font-size: 13px;
+	padding: 5px 15px;
+	border: solid 0;
+	letter-spacing: 1px;
+}
+
+.join input[type="submit"]:hover{
+	cursor: pointer;
+	background:green; 
+}
+
+/*/
+Footer!
+/*/
+footer{
+	background-color: black;
+	padding: 0px 0px 0px 0px;
+}
+
+
+.footerlogo img{
+	max-width: 11%;
+	height: auto;
+	margin: 5% 45% 3% 45%;
+	
+}
+
+.footerrow{
+	display: flex;
+}
+
+
+.rowbottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 30px 100px;
+	
+}
+
+.rowbottom div a{
+	font-family: 'Mulish-medium';
+	text-decoration: none;
+	color: beige;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.rowbottom div a:hover{
+	color: green;
+}
+
+.pagescolumn{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	/*/
+	border-bottom: solid 1px darkred;
+	padding-bottom: 50px;
+	/*/
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	padding: 80px 0px 50px 0px;
+}   
+
+.icons div img{
+    margin: 0px 0px 0px 10px;
+    max-height: 25px;
+    width: auto;
+}

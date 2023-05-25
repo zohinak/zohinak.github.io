@@ -1,0 +1,358 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.back{
+  background:#150401;
+
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right,#A22005, #EF9406);	
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  text-align: center;
+  font-family: 'CinzelDecorative-Bold';
+  font-weight: 600;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 40px;
+  color: beige;
+  display: block;
+  transition: 0.3s;
+}
+
+.countries a{
+  display: inline-block;
+}
+
+.img-india{
+  position: absolute;
+  top: 520px;
+  left: 595px;
+  width: 7%;
+  z-index: 10;
+}
+
+.img-kenya{
+  position: absolute;
+  top: 520px;
+  left: 730px;
+  width: 7%;
+  height: auto;
+  z-index: 10;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #150401;
+}
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+}
+
+.logonav {
+	position: relative;
+	z-index: 5;
+	max-width: 7%;
+}
+
+.logonav:hover{
+	transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay a img{z-index: 3;}	
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.chakula img{
+  position: relative;
+  z-index: 0; 
+  max-width: 100%;
+  max-height: auto;
+  padding: 0px 0px;
+  margin: -150px 0px 0px 0px;	
+
+}
+
+main{
+  padding: -90px 0px 0px 0px;
+  text-align: center;
+  max-width: 100%;
+}
+
+main img{
+    width: 5%;
+    height: auto;
+    margin: -90px 0px -40px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h1{
+  font-size: 10em;
+  font-family: 'CinzelDecorative-Bold';
+  color: orangered;
+  margin: 0px 0px;
+}
+
+h2{
+  font-family:'Mulish-medium'; 
+  margin: 0 0 50px;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, .6);
+}
+
+.row{
+	padding-top: 200px;
+
+}
+
+.row div{
+	padding-left: 50px;
+	padding-right: 50px;
+	display: flex;
+    justify-content: center;
+}
+
+.row h3{
+    z-index: 1;
+    font-family:'Mulish-medium'; 
+    font-size: 18px;
+    color: beige;
+    text-align: center;
+    padding: 35px 135px 0px 90px;
+	width: 0%;
+	height: 0%;
+	background: orange;
+	border-radius: 30%;
+}
+
+.row img{
+	position: relative;
+    max-width: 20%;
+    height: auto;
+	top: -100px;
+	left: 30%;
+
+}
+
+ button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  font-size: inherit;
+  font-family: 'Mulish-medium';
+}
+
+button.btn {
+  width: 10rem;
+  height: auto;
+}
+
+button.btn .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #D5860A;
+  border-radius: 1.625rem;
+}
+
+button.btn .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.btn .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.btn .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+button.btn .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #150401;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+  color: #fff;
+}
+
+/*buttonkenya*/
+
+button.btn2 {
+  width: 10rem;
+  height: auto;
+}
+
+button.btn2 .circle2 {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #B73C21;
+  border-radius: 1.625rem;
+}
+
+button.btn2 .circle2 .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+button.btn2 .circle2 .icon.arrow2 {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+button.btn2 .circle2 .icon.arrow2::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+button.btn2 .button-text2 {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #150401;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle2 {
+  width: 100%;
+}
+
+button:hover .circle2 .icon.arrow2 {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+          transform: translate(1rem, 0);
+}
+
+button.btn2:hover .button-text2 {
+  color: #fff;
+}
+
+
+
+/*/Footer!/*/
+
+
+.icons{
+  display: flex;
+  justify-content: center;
+  padding-top: 250px;
+  padding-bottom: 150px;
+
+}
+
+.icons div img{
+  z-index: 2;
+  margin: 10px 10px 10px 10px;
+  max-height: 30px;
+  width: auto;
+
+}
+
+
+

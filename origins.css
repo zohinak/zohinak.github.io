@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+background: #190708;    
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right,#A22005, #EF9406);
+}
+
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay a {
+    text-align: center;
+    font-family: 'CinzelDecorative-Bold';
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 40px;
+    color: beige;
+    display: block;
+    transition: 0.3s;
+}
+
+.countries a{
+    display: inline-block;
+}
+
+.img-india{
+    position: absolute;
+    top: 520px;
+    left: 595px;
+    width: 7%;
+    z-index: 10;
+}
+
+.img-kenya{
+    position: absolute;
+    top: 520px;
+    left: 730px;
+    width: 7%;
+    height: auto;
+    z-index: 10;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+    color: #150401;
+}
+
+
+.overlay .closebtn {
+    position: absolute;
+    top: 5px;
+    right: 45px;
+    font-size: 50px;
+}
+
+.logonav {
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    max-width: 7%;
+}
+
+.logonav:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay a img{z-index: 3;}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+.origins{
+    margin: 0px 0px;
+}
+
+.origins img{
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    opacity: .9;
+    
+}
+
+.centered-bottom {
+    position: absolute;
+    border-bottom: 3px solid darkred;
+    padding: 0px 0px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: beige;
+    font-size: 3.4em;
+    text-align: center;
+    top:700px;
+    left:560px;
+    
+}
+
+.origins h1{
+    position: relative;
+    z-index: 1;
+    font-family: 'Mulish-Bold';
+    font-size: 1em;
+    color: white;
+    top: 0px;
+    left: -30px;
+    text-align: center;
+    margin: 50px 0px 300px 0px;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: center;
+    margin: 100px 200px;
+
+}
+
+.bigbox img{
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.text{
+    text-align: left;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.text h2{
+    font-family: 'Mulish';
+    color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.text p1{
+    font-family: 'Mulish';
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+}
+
+.holder{
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin: 20px 200px;
+}
+
+.bb3{
+    background-color: #364E2D;
+    width: 20%;
+    height: auto;
+    border-radius: 40%;
+}
+
+.bb3 img{
+    width: 65%;
+    height: auto;
+    padding: 5px 40px; 
+}
+
+.bb3:hover img{
+    transform: rotate(20deg) scale(1.2);
+}
+
+.bb3 h2{
+    position: absolute;
+    width: 25%;
+    font-size: 20px;
+    line-height: 27px;
+    top: 40px;
+    left: 250px;
+    visibility: hidden;
+    color: white;
+    text-align: left;
+    font-family: 'Mulish';
+    font-weight: 100;
+    
+}
+
+.bb3:hover h2{
+    visibility: visible;
+    
+}
+
+.papaya{
+    background-color: #D6CE9E;
+    width: 380px;
+    height: 380px;
+    border-radius: 40%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.papaya img{
+    width: 90%;
+    height: auto;
+    margin: 0px 20px
+}
+
+.papaya:hover img{
+    transform: rotate(20deg) scale(1.2);
+}
+
+.papaya h2{
+    position: relative;
+    width: 150%;
+    top: -270px;
+    left: 400px;    
+    visibility: hidden;    
+    color: white;
+    text-align: left;
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.papaya:hover h2{
+    visibility: visible;
+}
+
+.coconut{
+    background-color: #704D35;
+    width: 180px;
+    height: 180px;
+    border-radius: 40%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.coconut img{
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 75%;
+    height: auto;
+    margin: 0px 35px; 
+}
+
+.coconut:hover img{
+    transform: rotate(-20deg) scale(1.2);
+}
+
+.coconut h2{
+    position: relative;
+    width: 150%;
+    top: -170px;
+    left: 200px;    
+    visibility: hidden;
+    color: white;
+    text-align: left;
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.coconut:hover h2{
+    visibility: visible;
+    
+}
+
+.tamarind{
+	position: relative;
+	top:90px;
+	left: 510px;
+    background-color: #E9AB48;
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+}
+
+.tamarind img{
+	margin-top: 25px;
+	margin-left: -30px;
+    width: 80%;
+    height: auto;
+    padding: 5px 40px;
+    transform: rotate(20deg)
+}
+
+.tamarind:hover img{
+    transform: rotate(30deg) scale(1.2);
+}
+
+.tamarind h2{
+    position: relative;
+    width: 150%;
+    top: -180px;
+    left: 260px;
+	width: 130%;
+    visibility: hidden;
+    color: white;
+    text-align: left;
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+
+.tamarind:hover h2{
+    visibility: visible;
+    
+}
+
+.potato{
+    background-color: #D7CE9E;
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    margin-top: 250px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+}
+
+.potato img{
+    position: relative;
+    top: 5px;
+    left: -30px;
+    width: 100%;
+    height: auto;
+    margin: 0px 35px; 
+}
+
+.potato:hover img{
+    transform: rotate(-20deg) scale(1.2);
+}
+
+.potato h2{
+    position: relative;
+    width: 150%;
+    top: -150px;
+    left: 200px;    
+    visibility: hidden;
+    color: white;
+    text-align: left;
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.potato:hover h2{
+    visibility: visible;
+    
+}
+
+/*/
+Footer!
+/*/
+footer{
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.footerlogo img{
+    max-width: 11%;
+    height: auto;
+    margin: 5% 45% 3% 45%;
+
+}
+
+.footerrow{
+    display: flex;
+}
+
+
+.rowbottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+
+}
+
+.rowbottom div a{
+    font-family: 'Mulish-medium';
+    text-decoration: none;
+    color: beige;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rowbottom div a:hover{
+    color: green;
+}
+
+.pagescolumn{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+}
+
+.icons div img{
+    margin: 0px 0px 0px 10px;
+    max-height: 25px;
+    width: auto;
+}

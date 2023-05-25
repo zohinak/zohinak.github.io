@@ -1,0 +1,303 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.gradient{
+	background-color:#C77A01;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right,#A22005, #EF9406);	
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.overlay a {
+	text-align: center;
+	font-family: 'CinzelDecorative-Bold';
+	font-weight: 600;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 40px;
+	color: beige;
+	display: block;
+	transition: 0.3s;
+}
+
+.countries a{
+	display: inline-block;
+}
+
+.img-india{
+	position: absolute;
+	top: 520px;
+	left: 595px;
+	width: 7%;
+	z-index: 10;
+}
+
+.img-kenya{
+	position: absolute;
+	top: 520px;
+	left: 730px;
+	width: 7%;
+	height: auto;
+	z-index: 10;
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #150401;
+}
+
+.indian{
+	position: absolute;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 50px;
+}
+
+.logonav{
+	position: absolute;
+	z-index: 5;
+	max-width: 7%;
+}
+
+.logonav:hover{
+	transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay a img{z-index: 5;}	
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.gradient{
+	background-color: #C77A01;
+}
+
+.about img{
+	position: relative;
+    max-width: 100%;
+	opacity: .9;
+}
+
+.centered {
+    position: absolute;
+    border-bottom: 3px solid darkred;
+    padding: 0px 0px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: beige;
+    font-size: 6.5em;
+    text-align: center;
+    top:40%;
+    left:35%;
+    
+}
+
+
+
+.infochakula{
+	top: 0px;
+	left: 20px;
+	padding-bottom: 150px;
+	background-color:#C77A01;
+
+
+}
+
+.infochakula h1{
+	font-family: 'cinzel decorative', 'cursive';
+	font-weight: 600;
+	color: beige;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 4%;
+}
+
+.infochakula h2{
+	font-family: 'Mulish-medium';
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	line-height: 29px;
+	font-size: 20px;
+
+}
+
+.indiansection{
+	position: relative;
+	background-color:#C77A01;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.countryimage img{
+	width:7%;
+	float: right;
+	padding: 30px 40px;
+}
+
+.spiceimage img{
+	float: left;
+	width: 35%;
+	height: auto;
+	padding-right: 150px;
+}
+
+.column1{
+	position: relative;
+	top: 170px;
+	margin-bottom: 450px;
+	font-family: 'Mulish-medium';
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.column1 h2{
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.kenyansection{
+	background-color:#6C180A;
+	position: relative;
+	top:0px;
+	left: 0px;
+	padding-top: 0px;
+}
+
+.column2{
+	position: relative;
+	top: 100px;
+	left: 200px;
+	padding-bottom: 60px;
+	font-family: 'Mulish-medium';
+	color: white;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+.column2 h2{
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.countryimage2 img{
+	width:7%;
+	padding: 50px 0px 0px 20px;
+}
+
+.beansimage img{
+	float: right;
+	width: 40%;
+	height: auto;
+	padding-right: 0px;
+	margin-top: -50px;
+}
+
+.bottom2{
+	background-color:#6C180A;
+}
+
+.bottom2 img{
+	margin-top: 120px;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/*/
+Footer!
+/*/
+footer{
+	background-color: black;
+	padding: 0px 0px 0px 0px;
+}
+
+
+.footerlogo img{
+	max-width: 11%;
+	height: auto;
+	margin: 5% 45% 3% 45%;
+
+}
+
+.footerrow{
+	display: flex;
+}
+
+
+.rowbottom{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 30px 100px;
+
+}
+
+.rowbottom div a{
+	font-family: 'Mulish-medium';
+	text-decoration: none;
+	color: beige;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 800;
+	text-align: center;
+}
+
+.rowbottom div a:hover{
+	color: green;
+}
+
+.pagescolumn{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	padding: 50px 0px 50px 0px;
+}
+
+.icons div img{
+	margin: 0px 0px 0px 10px;
+	max-height: 25px;
+	width: auto;
+}

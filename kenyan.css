@@ -1,0 +1,286 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	 background-image:linear-gradient(#A22005, #4A0A08);
+	 width: 100vw;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to right,#A22005, #EF9406);
+}
+
+.overlay-content {
+	position: relative;
+	top: 15%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	text-align: center;
+	font-family: 'CinzelDecorative-Bold';
+	font-weight: 600;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 40px;
+	color: beige;
+	display: block;
+	transition: 0.3s;
+}
+
+.countries a{
+	display: inline-block;
+}
+
+.img-india{
+	position: absolute;
+	top: 520px;
+	left: 595px;
+	width: 7%;
+	z-index: 10;
+}
+
+.img-kenya{
+	position: absolute;
+	top: 520px;
+	left: 730px;
+	width: 7%;
+	height: auto;
+	z-index: 10;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+	color: #150401;
+}
+
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 50px;
+}
+
+.logonav {
+	position:absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	max-width: 7%;
+}
+
+.logonav:hover{
+	transform: scale(1.2);
+}
+
+@media screen and (max-height: 450px) {
+	.overlay a {font-size: 20px}
+	.overlay a img{z-index: 3;}
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+
+
+.kenyannav{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -200px;
+	margin-top: 30px;
+	top: 5%;
+
+}
+
+.kenyannav img{
+	width: 20%;
+}
+
+.kenyan h1 {
+    margin-top: 150px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: white;
+    font-size: 7em;
+    text-align: center;
+}
+
+.kenyan h2{
+	width: 20%;
+    text-align: center;
+    font-family: 'Mulish-medium';
+    font-size: 20px;
+    color: white;
+	border-bottom: 3px solid red;
+	margin-left: 580px;
+	margin-top: -10px;
+}
+
+.potatoandbeans{
+	top: 400px;
+}
+
+.row1{
+    display: flex;
+	align-items: center;
+    margin: 150px 300px;
+	border-bottom: 3px solid red;
+   
+}
+
+.column img{
+    width: 60%;
+    height: auto;
+
+}
+
+.column{
+    font-family: 'mulish';
+    font-weight: thin;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+	padding-left: 200px;
+	padding-bottom: 20px;
+    
+}
+
+.column h1{
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.sustenance{
+	z-index: 2;
+	margin: 50px 200px;
+
+}
+
+.row2{
+	z-index: 2;
+    align-items: center;
+    display: flex;
+	font-family: 'Mulish-medium';
+	color: white;
+	background-color: rgba(34, 8, 5, 18%);
+	padding: 50px 100px;
+}
+
+.column2{
+	max-width: 45%;
+	padding: 0px 40px;
+}
+
+.column2 h1{
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.column2 h2{
+	font-size: 25px;
+	font-weight: 100;
+	margin-top: -40px;
+}
+
+.column2 h3{
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 30px;
+	padding-top: 50px;
+	padding-left: 60px;
+}
+
+.row3{
+	padding: 100px 150px;
+	align-items: center;
+    display: flex;
+	font-family: 'Mulish-medium';
+	color: white;
+}
+
+.column3{
+	margin-top: 80px;
+	margin-left: 100px;
+}
+
+.column3 h1{
+	max-width: 75%;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.column3 h2{
+	font-weight: 100;
+	font-size: 15px;
+	padding-top: 20px;
+}
+
+.column3 img{
+    width: 25%;
+    height: auto;
+	padding: 0px 12px;
+	align-content: center;
+	margin-bottom: 50px;
+	margin-right: 3px;
+}
+
+
+.column3 a{
+	text-decoration: none;
+	background-color:#90211E;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: white;
+	font-weight: 100;
+
+}
+
+
+.staples2 a:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*/
+Footer!
+/*/
+
+.icons{
+	display: flex;
+	z-index: 1;
+	justify-content: center;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+
+.icons div img{
+	z-index: 100;
+	margin: 10px 10px 10px 10px;
+	max-height: 25px;
+	width: auto;
+}
+
+
+

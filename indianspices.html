@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="indianspices.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!---Navigation--->
+	<div id="myNav" class="overlay">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<div class="overlay-content">
+			<a href="index.html">HOME</a>
+			<a href="About.html">ABOUT</a>
+			<a href="././meals/meals.html">MEALS</a>
+			<a href="././Tools/Tools.html">TOOLS</a>
+			<a href="History.html">HISTORY</a>
+			<a href="contact.html">CONTACT</a>
+			<a class="navabr-india" href="/">
+				<div class="countries">
+					<a href="Indian.html">
+						<img src="images/india-02.png" class="img-india">
+					</a>
+					<a href="Kenyan.html">
+						<img src="images/kenya-03.png" class="img-kenya">
+					</a>
+				</div>
+			</a>
+		</div>
+	</div>
+	<span style="font-size:30px;cursor:pointer"
+		  onclick="openNav()"><img src="images/finallogo-01.png" class="logonav"></span>
+
+	<script>
+		function openNav() {
+			document.getElementById("myNav").style.display = "block";
+		}
+
+		function closeNav() {
+			document.getElementById("myNav").style.display = "none";
+		}
+
+
+	</script>
+
+
+
+
+
+	<div class="indianav">
+		<a href="Indian.html"> <img src="images/india-02.png"></a>
+	</div>
+    
+</head>
+<body>
+    <div class="indian">
+        <h1><span style="color:orange"> INDIAN</span> SPICES</h1>
+        <h2>STAPLE INDIAN SPICES</h2>
+    </div>
+	
+	<div class="top">
+	<h3>The use of specific<strong> Ingredients</strong>  and spices<br> from India is what added<i> flavor</i>  to kenyan cuisine.<br> Click each spice below to learn more about it!</h3>
+	</div>
+	
+	
+	<!---Spices clickable images--->
+	<section class="spices">
+		<div>
+			<img id="tumericImg" style="cursor: pointer;" src="images/turmericfinal.png">
+			<h1>Turmeric</h1>	
+		</div>
+		
+		<div>
+			<img id="chilliImg" style="cursor: pointer;" src="images/chilis.png">
+			<h1>Chilis</h1>	
+		</div>
+		
+		<div>
+			<img id="cuminImg" style="cursor: pointer;" src="images/cumin.png">
+			<h1>Cumin</h1>
+		</div>
+		
+		<div>
+			<img id="pepperImg" style="cursor: pointer;" src="images/cyn-04.png">
+			<h1>Cayenne Pepper</h1>
+		</div>
+		
+	</section>
+	
+	<!---Info pop up for spices--->
+	<section id="bodyText" class="spicesdropdown">
+
+	</section>
+
+	<script src="indianspices.js"></script>
+	
+	<!---Footer--->
+    <footer>
+		<div class="icons">
+			<div>
+				<a href="https://www.facebook.com/agasrestaurant/">
+					<img src="images/fb-03.png"></a>
+				<a href="https://www.instagram.com/agasrestaurant/?hl=en">
+					<img src="images/insta-03.png"></a>
+				<a href="https://twitter.com/agasrestaurant?lang=en">
+					<img src="images/twitter-03.png" img src=""></a>
+
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

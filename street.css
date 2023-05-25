@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*margins{
+    0, 0;
+}
+
+body{
+background: #190708;    
+}
+
+.street img{
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    opacity: .5;
+    
+}
+
+.street{
+    margin: 0px 0px;
+}
+
+.centered-bottom {
+    position: absolute;
+    border-bottom: 3px solid darkred;
+    padding: 0px 0px;
+    font-family: 'cinzel decorative', 'cursive';
+    font-weight: bold;
+    color: beige;
+    font-size: 3.4em;
+    text-align: center;
+    top:700px;
+    left:490px;
+    
+}
+
+.street h1{
+    position: relative;
+    z-index: 1;
+    font-family: 'Mulish-Bold';
+    font-size: 1em;
+    color: white;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    margin: 50px 0px 300px 0px;
+}
+
+.streetinfo h1{
+    position: relative;
+    z-index: 1;
+    font-family: 'Mulish-Bold';
+    font-size: 1em;
+    color: white;
+    top: 0px;
+    left: -30px;
+    text-align: center;
+}
+
+.githeri-street{
+	display: flex;
+	justify-content: center;
+	margin: 0px 0px;
+	font-family: 'Mulish-medium';
+	color:white;
+	padding-bottom: 200px;
+}
+
+.githeri-street div img{
+	max-width: 100%;
+	max-height: auto;
+	opacity: .9;
+}
+
+.viewmeal{
+	position: relative;
+	z-index: 4;
+	margin-top: -5px;
+    left: 90%;
+    max-width: 15%;
+    background-color: #649F4E;
+    padding: 20px 0px 30px 30px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.viewmeal a{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Mulish-medium';
+    color: white;
+    font-size: 15px;
+}
+	
+
+.column1{
+	padding: 0px 100px;
+	margin-top: 200px;
+	margin-left: 80px;
+
+}
+
+.column1 h1{
+	font-size: 30px;
+}
+
+.column1 h2{
+	max-width: 70%;
+	max-height: auto;
+	font-size: 100%;
+	font-weight: 200;
+	line-height: 23px;
+	padding-bottom: 50px;
+}
+
+.column1 h3{
+	font-size: 95%;
+	font-weight: 300;
+}
+
+
+.column2{
+	padding: 0px 100px;
+	margin-top: 270px;
+	margin-left: 40px;
+}
+
+.column2 h1{
+	font-size: 30px;
+}
+
+.column2 h2{
+	max-width: 70%;
+	max-height: auto;
+	font-size: 100%;
+	font-weight: 200;
+	line-height: 23px;
+	padding-bottom: 50px;
+}
+
+.column2 h3{
+	font-size: 95%;
+	font-weight: 300;
+}
+
+
+
+/*/
+Footer!
+/*/
+
+
+
+footer{
+	background-color: black;
+}
+.icons{
+    display: flex;
+	flex-direction: row;
+    z-index: 3;
+	padding: 50px 0px 10px 20px;
+}   
+
+.icons div img{
+    z-index: 5;
+    margin: 0px 0px 10px 10px;
+    max-height: 25px;
+    width: auto;
+}
